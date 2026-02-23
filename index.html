@@ -33,7 +33,7 @@
         /* Botón de Donaciones */
         .btn-donar {
             display: inline-block;
-            background-color: #0070ba; /* Color azul PayPal */
+            background-color: #0070ba;
             color: white;
             padding: 12px 25px;
             text-decoration: none;
@@ -65,18 +65,20 @@
         .top-donadores td {
             padding: 12px;
             border-bottom: 1px solid #eee;
-            color: #666;
-            font-style: italic;
         }
 
-        /* Colores de Medallas (se aplican cuando llenes los datos) */
-        .oro { background-color: #FFD700 !important; color: #000 !important; font-weight: bold; font-style: normal !important; }
-        .plata { background-color: #C0C0C0 !important; color: #000 !important; font-weight: bold; font-style: normal !important; }
-        .bronce { background-color: #CD7F32 !important; color: white !important; font-weight: bold; font-style: normal !important; }
+        /* Colores de Medallas */
+        .oro { background-color: #FFD700 !important; color: #000 !important; font-weight: bold; }
+        .plata { background-color: #C0C0C0 !important; color: #000 !important; font-weight: bold; }
+        .bronce { background-color: #CD7F32 !important; color: white !important; font-weight: bold; }
         
         .rank {
             width: 40px;
             font-weight: bold;
+        }
+        .empty {
+            color: #999;
+            font-style: italic;
         }
     </style>
 </head>
@@ -85,7 +87,7 @@
     <div class="container">
         <h1>Bienvenido a mi oficina</h1>
         
-        <img src="3368.png" alt="Foto de oficina">
+        <img src="image_3.png" alt="Foto de oficina">
 
         <br>
         <a href="https://paypal.me/DavidDroid" target="_blank" class="btn-donar">
@@ -104,26 +106,26 @@
             <tbody>
                 <tr class="oro">
                     <td class="rank">1</td>
-                    <td>Esperando...</td>
-                    <td>-</td>
+                    <td>Luis Rodríguez</td>
+                    <td>$0.10</td>
                 </tr>
                 <tr class="plata">
                     <td class="rank">2</td>
-                    <td>Esperando...</td>
-                    <td>-</td>
+                    <td>Francisco Nieto</td>
+                    <td>$0.09</td>
                 </tr>
                 <tr class="bronce">
                     <td class="rank">3</td>
-                    <td>Esperando...</td>
-                    <td>-</td>
+                    <td class="empty">Esperando...</td>
+                    <td class="empty">-</td>
                 </tr>
-                <tr><td class="rank">4</td><td>-</td><td>-</td></tr>
-                <tr><td class="rank">5</td><td>-</td><td>-</td></tr>
-                <tr><td class="rank">6</td><td>-</td><td>-</td></tr>
-                <tr><td class="rank">7</td><td>-</td><td>-</td></tr>
-                <tr><td class="rank">8</td><td>-</td><td>-</td></tr>
-                <tr><td class="rank">9</td><td>-</td><td>-</td></tr>
-                <tr><td class="rank">10</td><td>-</td><td>-</td></tr>
+                <tr><td class="rank">4</td><td class="empty">-</td><td class="empty">-</td></tr>
+                <tr><td class="rank">5</td><td class="empty">-</td><td class="empty">-</td></tr>
+                <tr><td class="rank">6</td><td class="empty">-</td><td class="empty">-</td></tr>
+                <tr><td class="rank">7</td><td class="empty">-</td><td class="empty">-</td></tr>
+                <tr><td class="rank">8</td><td class="empty">-</td><td class="empty">-</td></tr>
+                <tr><td class="rank">9</td><td class="empty">-</td><td class="empty">-</td></tr>
+                <tr><td class="rank">10</td><td class="empty">-</td><td class="empty">-</td></tr>
             </tbody>
         </table>
     </div>
